@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Menu() {
   return (
     <>
@@ -17,7 +19,12 @@ export default function Menu() {
             Privacy Policy
           </a>
         </li>
-      </ul >
+        <li>
+          <Link href="/1">
+            &#9997; Begin Form!
+          </Link>
+        </li>
+      </ul>
     </>
   )
 }
