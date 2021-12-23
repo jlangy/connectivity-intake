@@ -36,7 +36,6 @@ export default function Home({ formData }) {
       >
         <Menu />
       </Navigation>
-      <Form />
       {/* <SJsonSchemaForm
         name="connectivity-intake"
         formData={formData}
